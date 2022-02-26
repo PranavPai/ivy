@@ -40,7 +40,6 @@ General
    general/indices_where.rst
    general/isinf.rst
    general/isfinite.rst
-   general/sign.rst
    general/broadcast_to.rst
    general/squeeze.rst
    general/zeros_like.rst

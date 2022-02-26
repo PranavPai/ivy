@@ -27,7 +27,6 @@ General
    general/transpose.rst
    general/indices_where.rst
    general/isfinite.rst
-   general/sign.rst
    general/squeeze.rst
    general/zeros_like.rst
    general/full.rst

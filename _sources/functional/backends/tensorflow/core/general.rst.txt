@@ -32,7 +32,6 @@ General
    general/swapaxes.rst
    general/isinf.rst
    general/isfinite.rst
-   general/sign.rst
    general/squeeze.rst
    general/zeros_like.rst
    general/full.rst

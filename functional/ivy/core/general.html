@@ -1458,16 +1458,6 @@ scatter into a zeros array.</p></li>
 </dd></dl>
 
 <dl class="py function">
-<dt id="ivy.functional.ivy.core.general.sign">
-<code class="sig-prename descclassname">ivy.</code><code class="sig-name descname">sign</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">x</span><span class="p">:</span> <span class="n">Union<span class="p">[</span>ivy.array.Array<span class="p">, </span>ivy.NativeArray<span class="p">]</span></span></em>, <em class="sig-param"><span class="n">f</span><span class="p">:</span> <span class="n">Optional<span class="p">[</span>ivy.Framework<span class="p">]</span></span> <span class="o">=</span> <span class="default_value">None</span></em><span class="sig-paren">)</span> &#x2192; Union<span class="p">[</span>ivy.array.Array<span class="p">, </span>ivy.NativeArray<span class="p">]</span><a class="reference internal" href="../../../_modules/ivy/functional/ivy/core/general.html#sign"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ivy.functional.ivy.core.general.sign" title="Permalink to this definition">¶</a></dt>
-<dd><p>Returns an indication of the sign of a number for each element x_i of the input array x.</p>
-<p>:param x (array) – input array. Should have a numeric data type.
-:return (array) - an array containing the evaluated result for each element in x. The returned array must have the same data type as x.
-:param f: Machine learning framework. Inferred from inputs if None.
-:type f: ml_framework, optional</p>
-</dd></dl>
-
-<dl class="py function">
 <dt id="ivy.functional.ivy.core.general.split">
 <code class="sig-prename descclassname">ivy.</code><code class="sig-name descname">split</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">x</span><span class="p">:</span> <span class="n">Union<span class="p">[</span>ivy.array.Array<span class="p">, </span>ivy.NativeArray<span class="p">]</span></span></em>, <em class="sig-param"><span class="n">num_or_size_splits</span><span class="p">:</span> <span class="n">Optional<span class="p">[</span>Union<span class="p">[</span>int<span class="p">, </span>Iterable<span class="p">[</span>int<span class="p">]</span><span class="p">]</span><span class="p">]</span></span> <span class="o">=</span> <span class="default_value">None</span></em>, <em class="sig-param"><span class="n">axis</span><span class="p">:</span> <span class="n">int</span> <span class="o">=</span> <span class="default_value">0</span></em>, <em class="sig-param"><span class="n">with_remainder</span><span class="p">:</span> <span class="n">bool</span> <span class="o">=</span> <span class="default_value">False</span></em><span class="sig-paren">)</span> &#x2192; Union<span class="p">[</span>ivy.array.Array<span class="p">, </span>ivy.NativeArray<span class="p">]</span><a class="reference internal" href="../../../_modules/ivy/functional/ivy/core/general.html#split"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ivy.functional.ivy.core.general.split" title="Permalink to this definition">¶</a></dt>
 <dd><p>Splits an array into multiple sub-arrays.</p>
@@ -1822,7 +1812,6 @@ If not given, then the type of the original array is used.</p></li>
 <li class="toctree-l1"><a class="reference internal" href="general/where.html">where</a></li>
 <li class="toctree-l1"><a class="reference internal" href="general/indices_where.html">indices_where</a></li>
 <li class="toctree-l1"><a class="reference internal" href="general/isinf.html">isinf</a></li>
-<li class="toctree-l1"><a class="reference internal" href="general/sign.html">sign</a></li>
 <li class="toctree-l1"><a class="reference internal" href="general/value_is_nan.html">value_is_nan</a></li>
 <li class="toctree-l1"><a class="reference internal" href="general/has_nans.html">has_nans</a></li>
 <li class="toctree-l1"><a class="reference internal" href="general/reshape.html">reshape</a></li>
